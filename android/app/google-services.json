@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "132062248422",
+    "firebase_url": "https://pvsk-buzzerapphandler-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pvsk-buzzerapphandler",
+    "storage_bucket": "pvsk-buzzerapphandler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132062248422:android:8c7503ec54f489c78e2a27",
+        "android_client_info": {
+          "package_name": "com.example.pvsk_buzzer_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132062248422-59arbkn9v3kd8nhfhd907auodp8gjfbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQlxaOOmOAC7Obs28bA69zGIdSxCBTfkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132062248422-59arbkn9v3kd8nhfhd907auodp8gjfbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
