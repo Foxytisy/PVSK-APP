@@ -100,7 +100,7 @@ TextEditingController classController = new TextEditingController();
           ),
         ),
         Padding(padding: const EdgeInsets.only(top: (15)),
-          child: ElevatedButton(style: (ElevatedButton.styleFrom(primary: Colors.blueGrey)), onPressed: () {DatabaseReference _testRef = FirebaseDatabase.instance.ref().child("CLASS ID"); _testRef.set(classController.text); }, child: Text('INPUT CLASS ID'),)
+          child: ElevatedButton(style: (ElevatedButton.styleFrom(primary: Colors.blueGrey)), onPressed: () {DatabaseReference _testRef = FirebaseDatabase.instance.ref('CLASS IDs').child(classController.text); _testRef.set(classController.text); }, child: Text('INPUT CLASS ID'),)
         ),
         TextButton(
           onPressed: () {
