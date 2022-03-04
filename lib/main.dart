@@ -92,12 +92,15 @@ TextEditingController classController = new TextEditingController();
           child: TextFormField(
             controller: classController,
             decoration: const InputDecoration(
-              fillColor: Color.fromARGB(255, 106, 115, 129), filled: true,
+              fillColor: Color.fromARGB(255, 174, 178, 184), filled: true,
               border: UnderlineInputBorder(),
               labelText: 'Enter Class Name',
               
             ),
           ),
+        ),
+        Padding(padding: const EdgeInsets.only(top: (15)),
+          child: ElevatedButton(style: (ElevatedButton.styleFrom(primary: Colors.blueGrey)), onPressed: () {DatabaseReference _testRef = FirebaseDatabase.instance.ref().child("CLASS ID"); _testRef.set(classController.text); }, child: Text('INPUT CLASS ID'),)
         ),
         TextButton(
           onPressed: () {
